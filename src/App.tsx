@@ -1,5 +1,6 @@
-import React, { useState } from "react";
+import React from "react";
 import "./App.css";
+const {useState} = React;
 
 const getRandomInt = (max: number) => 1 + Math.floor(Math.random() * max);
 
